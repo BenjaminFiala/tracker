@@ -1,0 +1,13 @@
+.map-container {
+  width: 80vw;
+  height: 80vh
+  }
+
+  .map-frame {
+    border: 2px solid black;
+    height: 100%;
+  }
+
+  #map-tracker {
+    height: 100%;
+  }

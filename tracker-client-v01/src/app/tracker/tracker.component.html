@@ -1,0 +1,11 @@
+<div class="map-container">
+  <div class="map-frame">
+    <div id="map-tracker"></div>
+  </div>
+</div>
+<button mat-raised-button color="primary" (click)="this.storeLocation()">
+  Store location
+</button>
+<div *ngIf="this.locationsList$ | async as list">
+  <app-locationlist [locationList]="list"></app-locationlist>
+</div>

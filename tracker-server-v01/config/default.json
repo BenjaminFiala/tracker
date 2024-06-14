@@ -1,0 +1,13 @@
+{
+  "dbConfig" : {
+    "host" : "localhost",
+    "user" : "hello",
+    "pwd"  : "password",
+    "database" : "tracker",
+    "connectionLimit" : 13
+  },
+  "appConfig" : {
+    "port" : 3000,
+    "origin" : ["https://localhost:4200", "https://127.0.0.1:4200", "https://10.0.2.2:4200"]
+  }
+}

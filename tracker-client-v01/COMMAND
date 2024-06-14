@@ -1,0 +1,1 @@
+npx ng serve --ssl true --ssl-key "../localhost+3-key.pem" --ssl-cert "../localhost+3.pem" --host 127.0.0.1 --port 4200
